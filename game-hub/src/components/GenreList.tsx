@@ -8,6 +8,7 @@ import {
 } from "@chakra-ui/react";
 import useGenres, { Genre } from "../hooks/useGenres";
 import getCroppedImageUrl from "../services/image-url";
+import { wrap } from "framer-motion";
 
 interface Props {
   onSelectGenre: (genre: Genre) => void;
@@ -36,6 +37,8 @@ const GenreList = ({ selectedGenre, onSelectGenre }: Props) => {
               onClick={() => onSelectGenre(genre)}
               fontSize="lg"
               variant="link"
+              whiteSpace="pre-wrap"
+              textAlign="left"
             >
               {genre.name}
             </Button>
