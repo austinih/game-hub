@@ -1,4 +1,4 @@
-# GaameHub
+# GameHub
 
 GameHub is a video game discovery app designed to help you find new games to play. The app was developed using TypeScript and React as Chakra-UI. In approaching this project, I aimed to focus on reusable components to produce easy to follow and DRY code.
 
