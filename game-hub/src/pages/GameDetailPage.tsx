@@ -1,4 +1,3 @@
-import React from "react";
 import { useParams } from "react-router";
 import useGame from "../hooks/useGame";
 import { Heading, Spinner, Text } from "@chakra-ui/react";
